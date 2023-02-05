@@ -8,7 +8,6 @@ import CourseList from '../CourseList/CourseList';
 import { getLatestNotification } from '../utils/utils';
 import PropTypes from 'prop-types';
 
-
 class App extends React.Component {
   static listCourses = [
     {id: 1, name: 'ES6', credit: 60},
